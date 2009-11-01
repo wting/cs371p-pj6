@@ -1,0 +1,3 @@
+This is Sudoku solver for project 6 of CS371p.
+
+The solution we used is a brute force solver with a simple heuristic (inspired by Peter Norvig's program). We compute the basic constraint list forced by the initial puzzle and use that to limit the brute force solution of testing every possible constraint in every possible slot.
